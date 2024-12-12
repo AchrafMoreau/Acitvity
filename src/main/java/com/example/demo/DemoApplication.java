@@ -21,10 +21,6 @@ public class DemoApplication {
 	@Autowired
 	private PasswordEncoder passwordEncoder;
 
-//	public DemoApplication(UserRepository userRepository){
-//		this.userRepository = userRepository;
-//	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
